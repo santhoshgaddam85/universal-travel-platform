@@ -17,13 +17,53 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "GothamRounded-Book", Helvetica, Arial, sans-serif !important;
+}
+
+.home-bg {
+  background-image: url('../app/assets/KUL-Merdeka-Tower.jpg');
+  min-height: 90vh;
+  border-radius: 0px 0px 35px 35px;
+}
+
+.title-main {
+  width: 45%;
+  display: inline-block;
+}
+
+.main-menu{
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+.main-menu:hover{
+  color: red;
+  font-weight: bold;
+}
+
+.promo-text {
+  font-size: 24px;
+  margin-left: 10px;
+}
+.promo-subtext {
+  color: #667396;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.product-thumb1 {
+  background-image: url('../app/assets/StudentCourseAssurance.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-thumb2 {
+  background-image: url('../app/assets/PetTravelAssurance.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-thumb3 {
+  background-image: url('../app/assets/StudentCourseAssurance.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @layer utilities {
