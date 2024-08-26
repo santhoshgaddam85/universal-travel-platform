@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import TravelBanner from '../app/assets/travel-unlimited-flights.png'
+import TravelBanner from '../app/assets/travel-unlimited.png'
 import PromoIcon from '../app/assets/promo.png'
 
 const Banner = () => {
@@ -12,12 +12,12 @@ const Banner = () => {
         className="align-middle inline-block"
         src={PromoIcon}
         alt="promo"
-        width={40}
+        width={30}
       ></Image>
       <p className="promo-subtext">
         Buy Travel Insurance Now! Campaign ends 31 August 2024
       </p>
-      <Image src={TravelBanner} alt="travel unlimited"></Image>
+      <Image src={TravelBanner} className="mt-4" alt="travel unlimited"></Image>
     </div>
   );
 }

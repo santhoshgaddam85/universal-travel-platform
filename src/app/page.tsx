@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Navbar from '../components/Navbar';
+import { NavBarNew } from "@/components/NavbarNew";
+import NavBar2 from "@/components/Navbar2";
 import Banner from '../components/Banner';
 import Products from '../components/Products'
 import Features from "../components/Features";
@@ -12,6 +14,8 @@ export default function Home() {
       <div className="home-bg bg-fixed bg-no-repeat bg-cover">
         <Image src={TPLogo} alt='' className="absolute mt-2 mx-10" width={60} height={70} />
         <Navbar />
+        {/* <NavBarNew /> */}
+        {/* <NavBar2 /> */}
         <div className="relative text-center">
           <div className="w-full absolute top-0 left-0 text-center mt-28">
             <h2 className="title-main text-6xl font-bold text-white text-center">

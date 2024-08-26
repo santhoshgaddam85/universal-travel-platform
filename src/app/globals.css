@@ -21,8 +21,9 @@ body {
 }
 
 .home-bg {
-  background-image: url('../app/assets/KUL-Merdeka-Tower.jpg');
-  min-height: 90vh;
+  background-image: url('../app/assets/Merdeka-Tower.jpg');
+  min-height: 110vh;
+  width: auto;
   border-radius: 0px 0px 35px 35px;
 }
 
@@ -51,17 +52,24 @@ body {
   margin-left: 10px;
 }
 .product-thumb1 {
-  background-image: url('../app/assets/StudentCourseAssurance.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../app/assets/pet-health.png');
 }
 .product-thumb2 {
-  background-image: url('../app/assets/PetTravelAssurance.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../app/assets/health.png');
 }
 .product-thumb3 {
-  background-image: url('../app/assets/StudentCourseAssurance.jpg');
+  background-image: url('../app/assets/sports.png');
+}
+.product-thumb4 {
+  background-image: url('../app/assets/gadget.png');
+}
+.product-thumb5 {
+  background-image: url('../app/assets/student-pa.png');
+}
+.product-thumb6 {
+  background-image: url('../app/assets/gadget-2.png');
+}
+.product-thumb {
   background-repeat: no-repeat;
   background-size: cover;
 }
