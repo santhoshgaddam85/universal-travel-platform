@@ -13,7 +13,7 @@ const Features = () => {
         alt="question"
         width={25}
       ></Image>
-      <h1 className="promo-text align-middle inline-block">
+      <h1 className="mx-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl align-middle inline-block">
         Why choose Tune Protect?
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-10">

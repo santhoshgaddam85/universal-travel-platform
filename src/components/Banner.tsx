@@ -5,7 +5,7 @@ import PromoIcon from '../app/assets/promo.png'
 const Banner = () => {
   return (
     <div className="mt-10 mx-10">
-      <h1 className="promo-text align-middle inline-block">
+      <h1 className="align-middle inline-block mx-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
         Travel Insurance Promo
       </h1>
       <Image
