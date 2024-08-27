@@ -60,7 +60,7 @@ const Navbar = () => {
       </div>
 
       <Disclosure as="nav" className="sm:hidden float-right">
-        <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white float-right">
+        <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white float-right">
           <span className="absolute -inset-0.5" />
           <span className="sr-only">Open main menu</span>
           <Bars3Icon
